@@ -1,10 +1,9 @@
 import './App.css';
 
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import TasksList from './components/TasksList';
 import Tasksform from './components/Tasksform';
-import { useSelector } from 'react-redux';
 
 function App() {
 	return (
